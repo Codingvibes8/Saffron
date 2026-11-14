@@ -4,9 +4,14 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ClerkProviderWrapper } from "@/components/ClerkProviderWrapper";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { CartDrawer } from "@/components/CartDrawer";
+import { ProductOptionsDialog } from "@/components/ProductOptionsDialog";
 
 export const metadata: Metadata = {
-  title: "Saffron & Ember | Modern Luxury Indian Kitchen & Takeaway · London W1 & NW2",
+  title:
+    "Saffron & Ember | Modern Luxury Indian Kitchen & Takeaway · London W1 & NW2",
   description:
     "Where Ancient Spice Meets Modern Craft. Slow-simmered curries, charcoal-fired tandoori grills, and artisanal biryanis made fresh to order in London Soho W1 & NW2.",
 };
@@ -30,7 +35,11 @@ export default function RootLayout({
             enableSystem={false}
             disableTransitionOnChange
           >
+            <Header />
             {children}
+            <CartDrawer />
+            <ProductOptionsDialog />
+            <Footer />
           </ThemeProvider>
         </ClerkProviderWrapper>
       </body>

@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Light Mode Surface: Warm Ivory oklch(0.99 0.005 85) with deep espresso body text */
+  --background: oklch(0.99 0.005 85);
+  --foreground: #1c0f0b;
+  --card: #ffffff;
+  --card-foreground: #1c0f0b;
+  --popover: #ffffff;
+  --popover-foreground: #1c0f0b;
+  --primary: #f59e0b;
+  --primary-foreground: #120907;
+  --secondary: #451a03;
+  --secondary-foreground: #fef3c7;
+  --muted: #f5efe6;
+  --muted-foreground: #6e5a4f;
+  --accent: #f59e0b;
+  --accent-foreground: #120907;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e6dac8;
+  --input: #e6dac8;
+  --ring: #f59e0b;
+  --radius: 1rem;
+}
+
+.dark {
+  /* Deep Charcoal / Obsidian Base: #120907 / stone-950 */
+  --background: #120907;
+  --foreground: #fafaf9;
+  --card: #1f0d09;
+  --card-foreground: #fafaf9;
+  --popover: #1c0d09;
+  --popover-foreground: #fafaf9;
+  --primary: #f59e0b;
+  --primary-foreground: #120907;
+  --secondary: #450a0a;
+  --secondary-foreground: #fef3c7;
+  --muted: #29140e;
+  --muted-foreground: #d6c5bc;
+  --accent: #f59e0b;
+  --accent-foreground: #120907;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.12);
+  --input: rgba(255, 255, 255, 0.15);
+  --ring: #f59e0b;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@keyframes kenBurns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.09) translate(-1.5%, -1%);
+  }
+  100% {
+    transform: scale(1.14) translate(1%, -2%);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-ken-burns {
+  animation: kenBurns 25s ease-in-out infinite alternate;
+}
+
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 6s linear infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}

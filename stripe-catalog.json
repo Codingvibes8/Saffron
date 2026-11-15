@@ -1,0 +1,295 @@
+{
+  "accountId": "acct_1RzHmBBQWEiOaxED",
+  "provisionedAt": "2026-11-15T17:17:07.193Z",
+  "currency": "gbp",
+  "products": [
+    {
+      "localId": "prod-1",
+      "slug": "old-delhi-smoked-butter-chicken",
+      "name": "Old Delhi Smoked Butter Chicken",
+      "category": "Signature Curries",
+      "priceGbp": 16.95,
+      "stripeProductId": "prod_VdNnPQl2MelL0T",
+      "stripePriceId": "price_1Uc723BQWEiOaxEDLPVTSKpC"
+    },
+    {
+      "localId": "prod-2",
+      "slug": "royal-charcoal-tandoori-mixed-grill",
+      "name": "Royal Charcoal Tandoori Mixed Grill",
+      "category": "Tandoori Grill",
+      "priceGbp": 24.95,
+      "stripeProductId": "prod_VdNnDL1uIKNfJ5",
+      "stripePriceId": "price_1Uc723BQWEiOaxEDwHC6PzEy"
+    },
+    {
+      "localId": "prod-3",
+      "slug": "awadhi-saffron-lamb-dum-biryani",
+      "name": "Awadhi Saffron Lamb Dum Biryani",
+      "category": "Biryani",
+      "priceGbp": 19.5,
+      "stripeProductId": "prod_VdNntrz4COblqo",
+      "stripePriceId": "price_1Uc723BQWEiOaxEDvpWtphhs"
+    },
+    {
+      "localId": "prod-4",
+      "slug": "charred-garlic-black-truffle-naan",
+      "name": "Charred Garlic & Black Truffle Naan Basket",
+      "category": "Breads & Sides",
+      "priceGbp": 6.5,
+      "stripeProductId": "prod_VdNn6rxm1ujNFa",
+      "stripePriceId": "price_1Uc724BQWEiOaxEDVrcdH8zr"
+    },
+    {
+      "localId": "prod-5",
+      "slug": "soho-royal-thali-sharing-platter",
+      "name": "Emperor's Grand Tandoor Sharing Feast (For 2)",
+      "category": "Feast Deals",
+      "priceGbp": 49.95,
+      "stripeProductId": "prod_VdNnXzf7N4VTH3",
+      "stripePriceId": "price_1Uc724BQWEiOaxEDvyqpIFCD"
+    },
+    {
+      "localId": "prod-6",
+      "slug": "24-hour-charcoal-black-dal-makhani",
+      "name": "24-Hour Charcoal Black Dal Makhani",
+      "category": "Signature Curries",
+      "priceGbp": 13.95,
+      "stripeProductId": "prod_VdNnS6FDp3HHkf",
+      "stripePriceId": "price_1Uc725BQWEiOaxEDl4dj9Vmw"
+    },
+    {
+      "localId": "prod-7",
+      "slug": "deconstructed-punjabi-samosa-chaat",
+      "name": "Old Delhi Crisp Punjabi Samosa Chaat",
+      "category": "Small Plates & Chaat",
+      "priceGbp": 8.95,
+      "stripeProductId": "prod_VdNnCb17KQLInJ",
+      "stripePriceId": "price_1Uc725BQWEiOaxEDm2drxHVt"
+    },
+    {
+      "localId": "prod-8",
+      "slug": "crispy-okra-lotus-root-bhel",
+      "name": "Crispy Kurkuri Bhindi & Lotus Root Chaat",
+      "category": "Small Plates & Chaat",
+      "priceGbp": 8.5,
+      "stripeProductId": "prod_VdNnlAEQgfUJTK",
+      "stripePriceId": "price_1Uc725BQWEiOaxEDOygiRhYx"
+    },
+    {
+      "localId": "prod-9",
+      "slug": "gunpowder-soft-shell-crab-pakora",
+      "name": " Tellicherry Pepper & Soft-Shell Crab Pakora",
+      "category": "Small Plates & Chaat",
+      "priceGbp": 12.95,
+      "stripeProductId": "prod_VdNnUBsd9zgcYP",
+      "stripePriceId": "price_1Uc726BQWEiOaxEDsGNftRZ1"
+    },
+    {
+      "localId": "prod-10",
+      "slug": "smoked-kashmiri-lamb-chops",
+      "name": "Smoked Kashmiri Rogan Lamb Chops",
+      "category": "Tandoori Grill",
+      "priceGbp": 21.95,
+      "stripeProductId": "prod_VdNn5lvEehb03D",
+      "stripePriceId": "price_1Uc726BQWEiOaxED9wzdOsVY"
+    },
+    {
+      "localId": "prod-11",
+      "slug": "saffron-achari-paneer-tikka-shashlik",
+      "name": "Saffron & Pickled Achari Paneer Shashlik",
+      "category": "Tandoori Grill",
+      "priceGbp": 14.95,
+      "stripeProductId": "prod_VdNnYqdSBv9Rma",
+      "stripePriceId": "price_1Uc726BQWEiOaxEDseE9hCSH"
+    },
+    {
+      "localId": "prod-12",
+      "slug": "railway-coastal-lamb-madras",
+      "name": "First-Class Railway Lamb Kari (Madras)",
+      "category": "Signature Curries",
+      "priceGbp": 18.5,
+      "stripeProductId": "prod_VdNnNYjv4VscD1",
+      "stripePriceId": "price_1Uc727BQWEiOaxEDA5FtFlhu"
+    },
+    {
+      "localId": "prod-13",
+      "slug": "kerala-king-prawn-moilee",
+      "name": "Allepey Wild King Prawn Mango Moilee",
+      "category": "Signature Curries",
+      "priceGbp": 19.95,
+      "stripeProductId": "prod_VdNn0AhD0IxPM0",
+      "stripePriceId": "price_1Uc727BQWEiOaxEDlVL4ryFc"
+    },
+    {
+      "localId": "prod-14",
+      "slug": "temple-kitchen-vegan-chana-palak",
+      "name": "Soho Temple-Style Roasted Chickpea & Spinach",
+      "category": "Signature Curries",
+      "priceGbp": 13.5,
+      "stripeProductId": "prod_VdNn3sXogcsu8R",
+      "stripePriceId": "price_1Uc728BQWEiOaxEDSsD37ZFL"
+    },
+    {
+      "localId": "prod-15",
+      "slug": "hyderabadi-chicken-tikka-biryani",
+      "name": "Hyderabadi Charred Chicken Tikka Biryani",
+      "category": "Biryani",
+      "priceGbp": 17.95,
+      "stripeProductId": "prod_VdNnoAdmpFTgs8",
+      "stripePriceId": "price_1Uc728BQWEiOaxEDQdY1aDcg"
+    },
+    {
+      "localId": "prod-16",
+      "slug": "wild-morel-jackfruit-dum-biryani",
+      "name": "Wild Kashmiri Morel & Young Jackfruit Biryani",
+      "category": "Biryani",
+      "priceGbp": 16.5,
+      "stripeProductId": "prod_VdNnKEzZiQdH6L",
+      "stripePriceId": "price_1Uc728BQWEiOaxEDuPS2UMRc"
+    },
+    {
+      "localId": "prod-17",
+      "slug": "peshwari-pistachio-rose-naan",
+      "name": "Peshwari Pistachio, Almond & Rosewater Naan",
+      "category": "Breads & Sides",
+      "priceGbp": 4.95,
+      "stripeProductId": "prod_VdNnrmlCe1m0vS",
+      "stripePriceId": "price_1Uc729BQWEiOaxEDCV1avmcr"
+    },
+    {
+      "localId": "prod-18",
+      "slug": "aged-saffron-cardamom-pilau-rice",
+      "name": "Aged Himalayan Saffron & Green Cardamom Pilau",
+      "category": "Breads & Sides",
+      "priceGbp": 4.5,
+      "stripeProductId": "prod_VdNni9rgLnAD96",
+      "stripePriceId": "price_1Uc729BQWEiOaxEDFmAIK7SD"
+    },
+    {
+      "localId": "prod-19",
+      "slug": "alphonso-mango-saffron-lassi",
+      "name": "Ratnagiri Alphonso Mango & Saffron Lassi",
+      "category": "Drinks & Desserts",
+      "priceGbp": 5.5,
+      "stripeProductId": "prod_VdNnX7R0YLZgYg",
+      "stripePriceId": "price_1Uc72ABQWEiOaxEDqIMdubZn"
+    },
+    {
+      "localId": "prod-20",
+      "slug": "warm-cardamom-gulab-jamun-pistachio-kulfi",
+      "name": "Flambéed Gulab Jamun & Malai Pistachio Kulfi",
+      "category": "Drinks & Desserts",
+      "priceGbp": 8.95,
+      "stripeProductId": "prod_VdNnQ0a6eTL2HT",
+      "stripePriceId": "price_1Uc72ABQWEiOaxED6xg0yfGC"
+    },
+    {
+      "localId": "prod-21",
+      "slug": "soho-vegan-pure-prasadam-royal-thali",
+      "name": "Soho Heritage Pure-Vegan Royal Thali",
+      "category": "Feast Deals",
+      "priceGbp": 22.95,
+      "stripeProductId": "prod_VdNnjDPsS0sedI",
+      "stripePriceId": "price_1Uc72BBQWEiOaxEDoCMoWJZD"
+    },
+    {
+      "localId": "prod-22",
+      "slug": "grand-family-banquet-for-four",
+      "name": "The Grand Nawab Family Banquet (For 4)",
+      "category": "Feast Deals",
+      "priceGbp": 89.95,
+      "stripeProductId": "prod_VdNnfq9gi3cxKy",
+      "stripePriceId": "price_1Uc72BBQWEiOaxEDm1OgyTUc"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "pilau-rice",
+      "name": "Aged Saffron Pilau Rice",
+      "priceGbp": 3.75,
+      "stripeProductId": "prod_VdNn0JzCrndOZZ",
+      "stripePriceId": "price_1Uc72BBQWEiOaxEDUtDG1Czc"
+    },
+    {
+      "id": "garlic-coriander-naan",
+      "name": "Garlic & Coriander Naan",
+      "priceGbp": 3.95,
+      "stripeProductId": "prod_VdNnQbzhhZnFfv",
+      "stripePriceId": "price_1Uc72CBQWEiOaxED4O5AF2kK"
+    },
+    {
+      "id": "peshwari-naan",
+      "name": "Peshwari Sweet Almond Naan",
+      "priceGbp": 4.5,
+      "stripeProductId": "prod_VdNnw5sxcdvSMH",
+      "stripePriceId": "price_1Uc72CBQWEiOaxEDcYWb0F9K"
+    },
+    {
+      "id": "truffle-cheese-naan",
+      "name": "Black Truffle & Keen's Cheddar Naan",
+      "priceGbp": 5.5,
+      "stripeProductId": "prod_VdNne6roTs9Iti",
+      "stripePriceId": "price_1Uc72DBQWEiOaxEDPMgm7lLR"
+    }
+  ],
+  "extras": [
+    {
+      "id": "poppadoms-chutney",
+      "name": "Poppadoms & Artisanal Chutney Tray",
+      "priceGbp": 4.5,
+      "stripeProductId": "prod_VdNngE3K2ZOl1R",
+      "stripePriceId": "price_1Uc72DBQWEiOaxEDy3Z0VxH1"
+    },
+    {
+      "id": "mango-lassi",
+      "name": "Alphonso Mango & Cardamom Lassi",
+      "priceGbp": 4.95,
+      "stripeProductId": "prod_VdNnfsI4zLX8of",
+      "stripePriceId": "price_1Uc72EBQWEiOaxEDjEpFkxbt"
+    },
+    {
+      "id": "cucumber-raita",
+      "name": "Smoked Cumin & Cucumber Raita",
+      "priceGbp": 2.95,
+      "stripeProductId": "prod_VdNnyGPHVyecZK",
+      "stripePriceId": "price_1Uc72EBQWEiOaxEDQRuH5GXM"
+    },
+    {
+      "id": "gunpowder-fries",
+      "name": "Masala Gunpowder Skin-On Fries",
+      "priceGbp": 4.25,
+      "stripeProductId": "prod_VdNn5EDQ5Ru5PK",
+      "stripePriceId": "price_1Uc72EBQWEiOaxEDMqjuKLUL"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "SAFFRON10",
+      "discountPercent": 10,
+      "description": "10% off your Saffron & Ember order",
+      "stripeCouponId": "COUPON_SAFFRON10",
+      "stripePromoCodeId": "promo_1Uc73MBQWEiOaxED6Pda2xUi"
+    },
+    {
+      "code": "STUDENT10",
+      "discountPercent": 10,
+      "description": "10% Student & UNiDAYS London Discount",
+      "stripeCouponId": "COUPON_STUDENT10",
+      "stripePromoCodeId": "promo_1Uc73NBQWEiOaxEDX4Fr9k6y"
+    },
+    {
+      "code": "FEAST20",
+      "discountPercent": 20,
+      "description": "20% off Royal Feast Orders",
+      "stripeCouponId": "COUPON_FEAST20",
+      "stripePromoCodeId": "promo_1Uc73OBQWEiOaxED8LGhMTSX"
+    },
+    {
+      "code": "SOHO15",
+      "discountPercent": 15,
+      "description": "15% Soho W1 & NW2 Local Welcome Offer",
+      "stripeCouponId": "COUPON_SOHO15",
+      "stripePromoCodeId": "promo_1Uc73RBQWEiOaxED4kouY6Yo"
+    }
+  ]
+}

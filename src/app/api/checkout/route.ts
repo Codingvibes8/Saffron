@@ -118,6 +118,10 @@ export async function POST(request: Request) {
           payment_method_types: ["card"],
           mode: "payment",
           customer_email: newOrder.customerEmail,
+          allow_promotion_codes: true,
+          phone_number_collection: {
+            enabled: true,
+          },
           line_items: newOrder.items.map((item) => {
             const modifierSummary = [
               item.spiceLevel ? `Spice: ${item.spiceLevel}` : null,
@@ -144,6 +148,8 @@ export async function POST(request: Request) {
           }),
           metadata: {
             orderId: newOrder.id,
+            orderNumber: newOrder.orderNumber,
+            customerEmail: newOrder.customerEmail,
             fulfilment: newOrder.fulfilment,
           },
           success_url: `${origin}/order-confirmation?orderId=${newOrder.id}&session_id={CHECKOUT_SESSION_ID}`,

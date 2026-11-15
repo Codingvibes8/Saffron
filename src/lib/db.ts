@@ -301,6 +301,24 @@ export function updateServerOrderStatus(
   return orders[idx];
 }
 
+export function updateServerOrderPayment(
+  id: string,
+  paymentStatus: Order["paymentStatus"],
+  status?: Order["status"]
+): Order | null {
+  const orders = getServerOrders();
+  const idx = orders.findIndex(
+    (o) => o.id === id || o.orderNumber.replace("#", "") === id.replace("#", "")
+  );
+  if (idx === -1) return null;
+  orders[idx] = {
+    ...orders[idx],
+    paymentStatus,
+    ...(status ? { status } : {}),
+  };
+  return orders[idx];
+}
+
 export function getServerReservations(): Reservation[] {
   if (!globalForDb.saffronReservations) {
     globalForDb.saffronReservations = [...INITIAL_RESERVATIONS];

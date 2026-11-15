@@ -89,7 +89,7 @@ export interface Order {
   createdAt: string;
   estimatedMinutes: number;
   notes?: string;
-  paymentStatus: "paid" | "pending";
+  paymentStatus: "paid" | "pending" | "failed";
 }
 
 export interface Reservation {

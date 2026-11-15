@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "stripe:provision": "node scripts/provision-stripe.js",
+    "db:init": "node scripts/init-neon-db.js",
+    "db:provision": "node scripts/init-neon-db.js",
+    "db:seed": "node scripts/init-neon-db.js",
     "db:view": "node scripts/view-db.js"
   },
   "dependencies": {

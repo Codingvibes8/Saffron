@@ -11,7 +11,24 @@ export async function GET() {
   if (sql) {
     try {
       const rows = await sql`
-        SELECT * FROM reservations ORDER BY created_at DESC LIMIT 50
+        SELECT
+          id,
+          reference,
+          guest_name AS "guestName",
+          guest_email AS "guestEmail",
+          guest_phone AS "guestPhone",
+          reservation_date AS "date",
+          time_slot AS "timeSlot",
+          party_size AS "partySize",
+          seating_area AS "seatingArea",
+          occasion,
+          dietary_notes AS "dietaryNotes",
+          special_requests AS "specialRequests",
+          status,
+          created_at AS "createdAt"
+        FROM reservations
+        ORDER BY created_at DESC
+        LIMIT 50
       `;
       if (rows.length > 0) {
         return NextResponse.json({ reservations: rows, source: "neon" });
